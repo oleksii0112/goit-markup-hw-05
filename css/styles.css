@@ -640,7 +640,7 @@ img {
 .modal-button-cross:focus,
 .modal-button-cross:hover{
     background-color: #404bbf;
-    border-color: transparent;
+    border: none;
 }
 
 .modal-svg-cross {
