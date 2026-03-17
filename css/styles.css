@@ -8,7 +8,7 @@
     --iris: #4d5ae5;
     --ocean: #404bbf;
     --navy-blue: #2e2f42;
-    --navy-blue-grad: rgb(46, 47, 66, 70%);
+    --navy-blue-grad: rgba(46, 47, 66, 0.7);
     --green: #31d0aa;
     --slate: #434455;
     --light-slate: #8e8f99;
@@ -640,7 +640,7 @@ img {
 .modal-button-cross:focus,
 .modal-button-cross:hover{
     background-color: #404bbf;
-    border: none;   
+    border-color: transparent;
 }
 
 .modal-svg-cross {
@@ -660,7 +660,6 @@ img {
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    text-align: center;
     margin-bottom: 16px;
 }
 
@@ -763,7 +762,6 @@ img {
 
 .modal-form-agreement {
     margin-bottom: 24px;
-    line-height: 0;
 }
 
 .modal-form-agreement-label {
@@ -780,13 +778,13 @@ img {
     transition: opacity var(--def-transition);
 }
 
-.modal-form-checkbox-input:checked +.modal-form-agreement-label .modal-form-checkbox {
+.modal-form-checkbox-input:checked + .modal-form-agreement-label .modal-form-checkbox {
     background-color: var(--ocean);
     border: none;
     fill: var(--cloud);
 }
 
-.modal-form-checkbox-input:checked+.modal-form-agreement-label .modal-form-checkbox-svg {
+.modal-form-checkbox-input:checked + .modal-form-agreement-label .modal-form-checkbox-svg {
     opacity: 1;
 }
 
