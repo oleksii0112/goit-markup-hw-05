@@ -596,9 +596,6 @@ img {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
     transition: opacity var(--def-transition), visibility var(--def-transition);
 }
 
