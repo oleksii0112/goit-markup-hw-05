@@ -393,8 +393,8 @@
                         />
                     </label>
                     <button type="submit" class="footer-sub-btn">Subscribe
-                        <svg class="footer-sub-svg" wight="24" height="20">
-                            <use href="/images/icons.svg#paperplane"></use>
+                        <svg class="footer-sub-svg" width="24" height="24">
+                            <use href="./images/icons.svg#paperplane"></use>
                         </svg>
                     </button>
                 </form>
@@ -415,10 +415,10 @@
             <p class="modal-subtitle">Leave your contacts and we will call you back</p>
             <form class="modal-form" name="review-form">
                 <div class="modal-form-wrapper">
-                    <label class="modal-label" for="username">Name</label>
+                    <label class="modal-label" for="user-name">Name</label>
                     <div class="modal-form-field">
                         <input class="modal-form-input"
-                            id="username" 
+                            id="user-name" 
                             type="text"
                             name="user-name"
                             required
@@ -454,22 +454,21 @@
                         </svg>
                     </div>
                 </div>
-                <div class="modal-form-wrapper">
-                    <label class="modal-label" for="textarea">Comment</label>
-                    <div class="modal-form-field">
+                <div class="modal-form-wrapper-textarea">
+                    <label class="modal-label" for="user-comment">Comment</label>
                         <textarea class="modal-textarea" 
-                            id="textarea"
+                            id="user-comment"
                             name="user-comment" 
                             placeholder="Text input" 
                             rows="8"></textarea>
-                    </div>
                 </div>
 
                 <label class="modal-form-agreement"> 
                     <input type="checkbox" 
                         class="visually-hidden"
-                        name="user-agreement" 
-                        value="false"/>
+                        name="user-privacy" 
+                        value="true"
+                        id="user-privacy"/>
                     <span class="modal-form-checkbox">
                         <svg class="modal-form-checkbox-svg" width="10" height="8">
                             <use href="./images/icons.svg#mark"></use>
