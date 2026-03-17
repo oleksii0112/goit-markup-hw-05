@@ -596,9 +596,6 @@ img {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-        opacity: 1;
-        visibility: visible;
-        pointer-events: auto;
     transition: opacity var(--def-transition), visibility var(--def-transition);
 }
 
@@ -755,7 +752,6 @@ img {
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 2px;
-    display: inline-flex;
     align-items: center;
     justify-content: center;
     margin-right: 8px;
